@@ -1,0 +1,314 @@
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #ffffff;
+  background-position: absolute;
+  min-width: 320px;
+  color: #1d1d1b;
+  height: auto;
+}
+div.head, ul.nav div, #logonav, ul.lang, .Soc_Med_Head, .headline_News, .text_new, .headline_News img, .AbQust, .AbQustteam, .partn {
+  display: inline-block;
+  vertical-align: middle;
+}
+header {
+  padding: 5px;
+  display: block;
+  position: sticky;
+  width: 100%;
+  height: auto;
+  background-color: rgba(17, 63, 137, 0.5);
+  vertical-align: top;
+  overflow: hidden;
+  position: sticky;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:#c4d4ed;
+  text-decoration: underline;
+}
+#backgrLogo {
+    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX32304254.jpg');
+    width: 100%;
+    height: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+div.head {
+  float: left;
+  width: 81%;
+  text-align: center;
+  font-weight: bold;
+}
+div.head h1{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  vertical-align: bottom;
+}
+#logonav {
+  float: left;
+  text-align: center;
+  width: 8%;
+  border-radius: 15px;
+}
+ul.nav {
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul.nav div {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.sticky {
+  position: fixed;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.Soc_Med_Head {
+  float: right;
+  text-align: left;
+  width: 12%;
+  height: auto;
+  padding: 5px;
+  background-size: cover;
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX32304254.jpg');
+}
+#Home, #RD, #Advisors, #Projects, #News {
+background-color: #f4f6f9;
+margin: 0;
+overflow: auto;
+padding: 8px;
+}
+#About, #Team, #PartnersPPP, #Careers, #Contacts {
+background-color: #a2dbe8;
+margin: 0;
+overflow: auto;
+padding: 8px;
+}
+.lftHeading {
+  text-align: left;
+  color: #3d6ebf;
+}
+.rgtHeading {
+  text-align: left;
+  color: #3d6ebf;
+}
+.container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.headline_News {
+ width: 28%;
+ height: auto;
+ padding: 5px;
+ border: 1.5px solid black;
+ justify-content: space-between;
+}
+.headline_News img {
+  height: 100%;
+  vertical-align: middle;
+  float: left;
+}
+.headline_News a {
+  color: #586170;
+}
+.text_new {
+  padding: 5px;
+  float: right;
+  width: auto;
+}
+.AbQust {
+  width: 28%;
+  height: auto;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.AbQust a {
+  color: #586170;
+}
+.AbQustteam {
+  width: 23%;
+  height: auto;
+  text-align: left;
+  background-color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.AbQustteam a {
+  color: #586170;
+}
+.portrTeam {
+  width: 80%;
+  height: auto;
+  border: 1px solid #8eb7f9;
+}
+.portrTeam {
+  width: 80%;
+  height: auto;
+  border: 1px solid #8eb7f9;
+}
+.imagePortr {
+  text-align: center;
+}
+.imagePortr a:hover img {
+      border: solid 1px #8eb7f9;
+      -moz-box-shadow: 1px 1px 10px #999;
+      -webkit-box-shadow: 1px 1px 0px #999;
+          box-shadow: 1px 1px 10px #999;
+  }
+}
+ul.team {
+  list-style-type: disc;
+  text-align: left;
+}
+ul.team li {
+  text-align: left;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.pop {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  height: 60%;
+  overflow: hidden;
+}
+.pop h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.pop .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  transition: all 200ms;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.pop .close:hover {
+  color: #06D85F;
+}
+.portrTeampop {
+  width: 30%;
+  height: auto;
+  border: 1px solid #8eb7f9;
+}
+.advr {
+  width: 23%;
+  height: auto;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+}
+.partn {
+  width: 15%;
+  height: auto;
+  text-align: left;
+  padding: 4px;
+  border: 0.5px solid black;
+}
+@media screen and (max-width: 959px){
+  body {
+    font-size: 12px;
+  }
+  nav{
+    width: 100%
+  }
+}
+@media screen and (max-width: 640px){
+  nav{
+    width: 100%
+  }
+}
+@media screen and (max-width: 320px){
+	nav a{
+	font-size: 3vw;
+  }
+  body {
+    font-size: 12px;
+  }
+  .AbQustteam {
+    width: 22%;
+    height: auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 4px;
+  }
+  .AbQustteam a {
+    color: #586170;
+  }
+}
